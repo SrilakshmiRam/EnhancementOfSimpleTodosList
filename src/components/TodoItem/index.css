@@ -1,0 +1,88 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.text-checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-checkbox {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.add-todo-task {
+  outline: none;
+  width: 300px;
+}
+
+.TodoCard-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.todo-checked {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: line-through;
+}
+
+.button {
+  border-color: #ff0b37;
+  border-width: 1px;
+  border-radius: 4px;
+  height: 20px;
+  width: 80px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ff0b37;
+  font-weight: 600;
+  background-color: #ffffff;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.button-edit {
+  border-color: #8f34eb;
+  border-width: 1px;
+  border-radius: 4px;
+  height: 25px;
+  width: 80px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #eb6e34;
+  font-weight: 600;
+  background-color: #ffffff;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .todo-heading {
+    font-size: 25px;
+  }
+
+  .button {
+    height: 25px;
+    width: 82px;
+  }
+}
